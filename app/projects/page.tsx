@@ -1,8 +1,13 @@
 import { Github, ArrowUpRight } from "lucide-react";
 
-// Projelerinizi bu array içinde obje olarak tanımlayabilirsiniz.
-// Bu yapı, kodu daha temiz ve yönetilebilir hale getirir.
 const projects = [
+    {
+        title: "RateWatch - ratewatch.live",
+        githubLink: "https://github.com/bsametarman/RateWatch-Backend",
+        description:
+            "RateWatch is a full-featured, cloud-native application designed to provide users with real-time currency exchange rate information. It's built on a modern, event-driven microservices architecture.",
+        tags: ["C#", ".NET", "Microservice", "Kafka", "Redis", "Elasticsearch", "React", "TypeScript", "MUI", "CI/CD", "Kubernetes"],
+    },
     {
         title: "Instagram Clone",
         githubLink: "https://github.com/bsametarman/instagram-clone-frontend",
@@ -11,18 +16,18 @@ const projects = [
         tags: ["Java", "Spring Boot", "React", "PostgreSQL", "JWT"],
     },
     {
-        title: " Laboratory Management System",
-        githubLink: "https://github.com/bsametarman/Laboratory-Report-App",
-        description:
-            "Developed web application that helps laborants to track laboratory chores. Used Java, Spring Boot for backend, React for frontend and PostgreSQL for database.",
-        tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
-    },
-    {
         title: "urlmol.icu - URL Shortener",
         link: "https://urlmol.icu",
         description:
             "Developed a full-stack link shortener application from scratch, featuring a Spring Boot RESTful API backend and a responsive React frontend.",
         tags: ["Java", "Spring Boot", "React", "Supabase", "Railway", "Docker"],
+    },
+    {
+        title: " Laboratory Management System",
+        githubLink: "https://github.com/bsametarman/Laboratory-Report-App",
+        description:
+            "Developed web application that helps laborants to track laboratory chores. Used Java, Spring Boot for backend, React for frontend and PostgreSQL for database.",
+        tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
     },
     {
         title: "Smart-Notes (AI-Powered Note-Taking App)",
