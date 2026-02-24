@@ -12,9 +12,9 @@ export default function Home() {
           </h1>
 
           <p className="mt-8 text-lg leading-8 text-gray-400">
-            I am <span className="underline decoration-yellow-200 decoration-2 underline-offset-4 text-white">Bahadır Samet</span>, a software engineer with a passion for building things
-            for the web. My main focus is creating modern, user-friendly applications
-            and I enjoy solving complex problems to turn ideas into beautiful, functional products.
+            I am <span className="underline decoration-yellow-200 decoration-2 underline-offset-4 text-white">Bahadır Samet</span>. I am a motivated software engineer with experience in both web applications and system level programming. I enjoy building
+            projects from start to finish, whether it is a backend service or a hardware integration. I am looking forward to apply my skills
+            in a production environment, learn new technologies, and create solutions for real world problems.
           </p>
 
           <section className="mt-20">
@@ -32,13 +32,13 @@ export default function Home() {
                 </p>
                 <hr className="my-4 border-gray-800" />
                 <p className="text-gray-400 leading-relaxed">
-                  Developed a complete, <span className="text-white">full-stack social media application similar to Instagram using a modern tech stack</span>. I was
-                  responsible for both the backend API and the responsive frontend user interface.
-                  <br /><span className="text-white">Backend</span>: Built a secure <span className="text-white">RESTful API</span> with <span className="text-white">Java and Spring Boot</span>. Implemented key features like user
-                  authentication (<span className="text-white">JWT</span>), profile management, posting media (images/videos), following users, liking, and commenting.
-                  Used PostgreSQL for the database.
-                  <br /><span className="text-white">Frontend</span>: Created a modern and responsive user interface with <span className="text-white">React</span>. Developed pages for the home feed, user
-                  profiles, and post creation. Used <span className="text-white">Chakra UI</span> for styling and React Context for managing user login state
+                  I developed a, <span className="text-white">full stack social media application similar to instagram by using modern tech stack.</span>. I wrote the both backend
+                  and the frontend.
+                  <br /><span className="text-white">Backend</span>: I have build a secure <span className="text-white">RESTful API</span> with <span className="text-white">Java and Spring Boot</span>. I implemented features like user
+                  authentication, profile management, posting media, following users, liking, and commenting.
+                  I used PostgreSQL as the database.
+                  <br /><span className="text-white">Frontend</span>: I have created a responsive user interface with <span className="text-white">React</span>. I wrote pages for the home feed, user profiles, and
+                  post creation. I used <span className="text-white">Chakra UI</span> for page styling and React Context for managing users login state.
                 </p>
               </div>
 
@@ -51,14 +51,13 @@ export default function Home() {
                 </p>
                 <hr className="my-4 border-gray-800" />
                 <p className="text-gray-400 leading-relaxed">
-                  Developed and implemented reusable <span className="text-white">UI</span> components for the main web application using <span className="text-white">React</span>, including Buttons, Time
-                  Pickers, and Checkboxes, to improve development speed and maintain design consistency.
-                  <br />Diagnosed and resolved a critical bug in the backend integration tests where an API, built with <span className="text-white">Java and Spring</span>, was
-                  incorrectly returning ’unauthorized’ errors.
-                  <br />Identified that the root cause of the test failure was an incorrect user data setup and corrected the logic to ensure reliable
-                  test execution.
-                  <br />Refactored existing frontend and backend code to enhance readability and maintainability.
-                  <br />Actively used <span className="text-white">Git</span> for version control, creating branches for features/fixes and submitting Pull Requests (PRs) for code
+                  I developed and implemented ui components for a web application using <span className="text-white">React</span>. I wrote those components (buttons,
+                  time pickers, checkboxes) to increase development speed and protect design in the all pages.
+                  <br />I found and solved a critical bug in the integration tests. The api was returning incorrect unauthorized errors.
+                  <br />IIdentified the cause of the test failure. It was an incorrect user data setup. I fixed the logic to ensure successful test
+                  execution.
+                  <br />I refactored existing frontend and backend code to enhance readability and maintainability.
+                  <br />Actively used <span className="text-white">Git</span> for version control, created branches for features, fixes and submitted Pull Requests (PRs) for code
                   review by senior team members
                 </p>
               </div>
