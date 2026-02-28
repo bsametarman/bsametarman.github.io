@@ -23,6 +23,48 @@ const projects = [
         tags: ["Java", "Spring Boot", "React", "Supabase", "Railway", "Docker"],
     },
     {
+        title: "Opel Astra H OBD2 Dashboard",
+        githubLink: "https://www.youtube.com/watch?v=99Hm7mC_VQI",
+        description:
+            "Vehicle telemetry monitoring system with OBD-II. I created a automotive communication bridge using the ESP32. I used CAN BUS protocol to interact with the vehicle ECU",
+        tags: ["C++", "ESP32", "Embedded", "LVGL"],
+    },
+    {
+        title: "C++ MNIST Neural Network (From Scratch)",
+        githubLink: "https://github.com/bsametarman/Cpp-MNIST-Neural-Network",
+        description:
+            "I developed a fully connected feed-forward neural network from scratch by using standard C++. I implemented matrix operations, vector calculus, and sigmoid activation functions without using external machine learning frameworks.",
+        tags: ["C++", "Linear Algebra"],
+    },
+    {
+        title: "Source Observer",
+        githubLink: "https://github.com/bsametarman/Source-Observer",
+        description:
+            "I developed a desktop application by using Qt6. I integrated native Windows API calls to read data and visualize CPU, RAM, and Disk I/O metrics.",
+        tags: ["C++", "Qt6"],
+    },
+    {
+        title: "Sand & Water Physics Simulation",
+        githubLink: "https://github.com/bsametarman/Sand-Water-Simulation",
+        description:
+            "A pixel based physics engine that simulates granular and fluid dynamics. 2D simulation based on cellular automata principles using the SDL3 library.",
+        tags: ["C++", "SDL3"],
+    },
+    {
+        title: "C++ Limit Order Book",
+        githubLink: "https://github.com/bsametarman/cpp-limit-order-book",
+        description:
+            "A high performance matching engine core simulating a financial exchange Limit Order Book (LOB).",
+        tags: ["C++"],
+    },
+    {
+        title: "C++ Algorithmic Backtester",
+        githubLink: "https://github.com/bsametarman/cpp-quant-backtester",
+        description:
+            "A high-performance, backtesting engine for quantitative trading strategies. Built in standard C++, this engine focuses on simulating market conditions efficiently.",
+        tags: ["C++"],
+    },
+    {
         title: " Laboratory Management System",
         githubLink: "https://github.com/bsametarman/Laboratory-Report-App",
         description:
@@ -56,35 +98,7 @@ const projects = [
         description:
             "Used machine learning to predict which Titanic passengers would survive. Compared different algorithms and improved model accuracy through data cleaning.",
         tags: ["Python", "Kaggle", "Colab"],
-    },
-    {
-        title: "Opel Astra H OBD2 Dashboard",
-        githubLink: "https://www.youtube.com/watch?v=99Hm7mC_VQI",
-        description:
-            "Vehicle telemetry monitoring system with OBD-II. I created a automotive communication bridge using the ESP32. I used CAN BUS protocol to interact with the vehicle ECU",
-        tags: ["C++", "ESP32", "Embedded", "LVGL"],
-    },
-    {
-        title: "C++ MNIST Neural Network (From Scratch)",
-        githubLink: "https://github.com/bsametarman/Cpp-MNIST-Neural-Network",
-        description:
-            "I developed a fully connected feed-forward neural network from scratch by using standard C++. I implemented matrix operations, vector calculus, and sigmoid activation functions without using external machine learning frameworks.",
-        tags: ["C++", "Linear Algebra"],
-    },
-    {
-        title: "Source Observer",
-        githubLink: "https://github.com/bsametarman/Source-Observer",
-        description:
-            "I developed a desktop application by using Qt6. I integrated native Windows API calls to read data and visualize CPU, RAM, and Disk I/O metrics.",
-        tags: ["C++", "Qt6"],
-    },
-    {
-        title: "Sand & Water Physics Simulation",
-        githubLink: "https://github.com/bsametarman/Sand-Water-Simulation",
-        description:
-            "A pixel based physics engine that simulates granular and fluid dynamics. 2D simulation based on cellular automata principles using the SDL3 library.",
-        tags: ["C++", "SDL3"],
-    },
+    }
 ];
 
 export default function Projects() {
